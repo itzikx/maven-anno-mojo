@@ -18,7 +18,7 @@
     <groupId>org.jfrog.maven.annomojo</groupId>
     <artifactId>maven-plugin-anno-parent</artifactId>
     <version>1.4-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 
     <prerequisites>
         <maven>2.2.0</maven>
