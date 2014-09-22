@@ -25,6 +25,20 @@
     </prerequisites>
 
     <name>AnnoMojo Parent</name>
+    
+    <distributionManagement>
+    <repository>
+        <id>artifactory</id>
+        <name>artifactory-releases</name>
+        <url>http://localhost:8081/artifactory/Test-repo</url>
+    </repository>
+    <snapshotRepository>
+        <id>artifactory</id>
+        <name>artifactory-snapshots</name>
+        <url>http://localhost:8081/artifactory/Test-repo</url>
+    </snapshotRepository>
+</distributionManagement>
+    
     <description>
         Maven2 maven-plugin-plugin extension that allows writing annotated Mojos using JDK 1.5 annotations
         instead of doclet comments.
