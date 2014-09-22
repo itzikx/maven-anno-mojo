@@ -23,7 +23,7 @@
     <prerequisites>
         <maven>2.2.0</maven>
     </prerequisites>
- 
+  
     <name>AnnoMojo Parent</name>
     
     <distributionManagement>
