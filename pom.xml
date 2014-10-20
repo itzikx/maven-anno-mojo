@@ -30,12 +30,12 @@
     <repository>
         <id>artifactory</id>
         <name>artifactory-releases</name>
-        <url>http://localhost:8081/artifactory/Test-repo</url>
+        <url>http://localhost:8081/artifactory/ext-release-local</url>
     </repository>
     <snapshotRepository>
         <id>artifactory</id>
         <name>artifactory-snapshots</name>
-        <url>http://localhost:8081/artifactory/Test-repo</url>
+        <url>http://localhost:8081/artifactory/ext-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
     
