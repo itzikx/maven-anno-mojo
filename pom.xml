@@ -29,13 +29,13 @@
     <distributionManagement>
     <repository>
         <id>localhost</id>
-        <name>artifactory-releases</name>
-        <url>http://localhost:8081/artifactory/libs-release-local</url>
+        <name>localhost-releases</name>
+        <url>http://localhost:8081/artifactory/plugins-release-local</url>
     </repository>
     <snapshotRepository>
         <id>localhost</id>
-        <name>artifactory-snapshots</name>
-        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+        <name>localhost-snapshots</name>
+        <url>http://localhost:8081/artifactory/plugins-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
     
