@@ -27,7 +27,7 @@
     <name>AnnoMojo Parent</name>
     
     <distributionManagement>
-    <repository>
+      <repository>
         <id>localhost</id>
         <name>localhost-releases</name>
         <url>http://localhost:8081/artifactory/plugins-release-local</url>
